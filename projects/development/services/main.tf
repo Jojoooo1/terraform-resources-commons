@@ -37,6 +37,7 @@ module "service_dev_project" {
     "sqladmin.googleapis.com",
     "logging.googleapis.com",
     "secretmanager.googleapis.com",
+    "iap.googleapis.com",
   ]
 
   labels = local.common_labels
@@ -65,6 +66,7 @@ module "service_test_project" {
     "sqladmin.googleapis.com",
     "logging.googleapis.com",
     "secretmanager.googleapis.com",
+    "iap.googleapis.com",
   ]
 
   labels = local.common_labels

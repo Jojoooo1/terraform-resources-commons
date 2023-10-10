@@ -24,7 +24,7 @@ module "commons_oauth_project" {
   disable_services_on_destroy = false
 
   activate_apis = [
-
+    "iap.googleapis.com",
   ]
 
   labels = local.common_labels
